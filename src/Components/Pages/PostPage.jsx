@@ -134,7 +134,7 @@ class PostPage extends Component {
     };
     const data = createFormData(this.state);
 
-    const newPost = await Axios.post("http://localhost:4001/post/new", data);
+    const newPost = await Axios.post("https://secure-ocean-68007.herokuapp.com/post/new", data);
     if (newPost.status === 201) {
       window.location = "/";
     }
