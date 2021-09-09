@@ -7,7 +7,7 @@ import {
   getPostsPending,
 } from "../actions";
 
-const API_URL = "http://localhost:4001/post";
+const API_URL = "https://secure-ocean-68007.herokuapp.com/post";
 
 const initState = {
   pending: false,

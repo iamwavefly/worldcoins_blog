@@ -56,7 +56,7 @@ class PostContent extends Component {
   constructor() {
     super();
     this.state = {
-      API_URL: "http://localhost:4001/post",
+      API_URL: "https://secure-ocean-68007.herokuapp.com/post",
       post: null,
     };
   }
